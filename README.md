@@ -4,4 +4,4 @@
 
 ## Авторы
 
-- [Нина](ninapaleha9@gmail.com)
+- [Нина](https://githab.com/ninaPaleha)(ninapaleha9@gmail.com)
