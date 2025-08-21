@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клуб четырех коней</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <a class="logo" href="#">
+                <img src="images/logo.png" alt="Логотип">
+            </a>
+        </nav>
+    </header>
+
+<main>
+        <!-- Стартовый экран -->
+        <section id="home" class="hero">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <div class="hero__line hero__line--left">ПРЕВРАТИТЕ УЕЗДНЫЙ ГОРОД</div>
+                    <div class="hero__line hero__line--center">В СТОЛИЦУ</div>
+                    <div class="hero__line hero__line--right">ЗЕМНОГО ШАРА</div>
+                </div>
+                <div class="hero__subtext fade-in">
+                    Оплатите взнос на телеграммы для организации<br> Международного васюкинского турнира по шахматам
+                </div>
+                <div class="hero__buttons fade-in">
+                    <a href="#support" class="button button--primary">Поддержать<br>&nbsp;шахматную мысль</a>
+                    <a href="#about" class="button button--secondary">Подробнее<br> о&nbsp; турнире</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Бегущая строка -->
+        <div class="marquee">
+            <div class="marquee__content">
+                <span>ДЕЛО ПОМОЩИ УТОПАЮЩИМ — ДЕЛО РУК САМИХ УТОПАЮЩИХ!</span>
+                <span class="marquee__divider">•</span>
+                <span>ШАХМАТЫ ДВИГАЮТ ВПЕРЕД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!</span>
+                <span class="marquee__divider">•</span>
+                <span>ЛЕД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!</span>
+                <span class="marquee__divider">•</span>
+                <!-- Дублирование контента для бесшовной цикличности -->
+                <span>ДЕЛО ПОМОЩИ УТОПАЮЩИМ — ДЕЛО РУК САМИХ УТОПАЮЩИХ!</span>
+                <span class="marquee__divider">•</span>
+                <span>ШАХМАТЫ ДВИГАЮТ ВПЕРЕД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!</span>
+                <span class="marquee__divider">•</span>
+                <span>ЛЕД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!</span>
+            </div>
+        </div>
+
+        <!-- Блок с текстом и изображением -->
+        <section class="info-section">
+            
+            <!-- Десктопная версия -->
+            <div id="support" class="info-section__container">
+                <div class="info-section__content fade-in">
+                    <div class="info-section__text">
+                        Чтобы поддержать<br>
+                        Международный васюкинский<br>
+                        турнир посетите лекцию на тему:<br>
+                        <span class="info-section__accent">«Плодотворная дебютная идея»</span>
+                    </div>
+                </div>
+                <div class="info-section__image fade-in">
+                    <img src="images/frame.png" alt="Иллюстрация к лекции">
+                </div>
+            </div>
+            
+            <!-- Мобильная версия -->
+            <div class="info-section__mobile">
+                <div class="info-section__mobile-content">
+                    <div class="info-section__mobile-text info-section__mobile-text--first fade-in">
+                        Чтобы поддержать<br>
+                        Международный васюкинский<br>
+                        турнир
+                    </div>
+                    <div class="info-section__mobile-image fade-in">
+                        <img src="images/frame.png" alt="Иллюстрация к лекции">
+                    </div>
+                    <div class="info-section__mobile-text fade-in">
+                        посетите лекцию на тему:<br>
+                        <span class="info-section__mobile-accent">«Плодотворная дебютная идея»</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок с изображением и таблицей -->
+        <section class="event-section">
+            <div class="event-section__container">
+                <div class="event-section__image fade-in">
+                    <img src="images/image12.png" alt="Сеанс одновременной игры в шахматы">
+                </div>
+                <div class="event-section__content">
+
+                    <!-- Заголовок -->
+                    <div class="event-section__text fade-in">
+                        и Сеанс <span class="event-section__accent">одновременной игры</span>
+                        <span class="event-section__accent">в шахматы на 160 досках</span><br>
+                        гроссмейстера О. Бендера
+                    </div>
+                    
+                    <!-- Таблица для десктопа -->
+                    <table class="event-table fade-in">
+                        <tr>
+                            <td>Место проведения:</td>
+                            <td>Клуб «Картонажник»</td>
+                        </tr>
+                        <tr>
+                            <td>Дата и время мероприятия:</td>
+                            <td>22 июня 1927 г. в 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Стоимость входных билетов:</td><td>20 коп.</td>
+                        </tr>
+                        <tr>
+                            <td>Плата за игру:</td><td>50 коп.</td>
+                        </tr>
+                        <tr>
+                            <td>Взнос на телеграммы:</td>
+                            <td>
+                                <span class="event-table__old-price">100 руб.</span>
+                                <span class="event-table__new-price">21 руб. 16 коп.</span>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- Мобильная версия таблицы -->
+                    <div class="event-table-mobile fade-in">
+                        <div class="event-table-mobile__row">
+                            <div class="event-table-mobile__label">Место проведения:</div>
+                            <div class="event-table-mobile__value">Клуб «Картонажник»</div>
+                        </div>
+                        <div class="event-table-mobile__row">
+                            <div class="event-table-mobile__label">Дата и время мероприятия:</div>
+                            <div class="event-table-mobile__value">22 июня 1927 г. в 18:00</div>
+                        </div>
+                        <div class="event-table-mobile__row">
+                            <div class="event-table-mobile__label">Стоимость входных билетов:</div>
+                            <div class="event-table-mobile__value">20 коп.</div>
+                        </div>
+                        <div class="event-table-mobile__row">
+                            <div class="event-table-mobile__label">Плата за игру:</div>
+                            <div class="event-table-mobile__value">50 коп.</div>
+                        </div>
+                        <div class="event-table-mobile__row">
+                            <div class="event-table-mobile__label">Взнос на телеграммы:</div>
+                            <div class="event-table-mobile__value">
+                                <div class="event-table-mobile__prices">
+                                    <span class="event-table__old-price">100 руб.</span>
+                                    <span class="event-table__new-price">21 руб. 16 коп.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Дополнительный текст -->
+                    <div class="event-section__footer fade-in">
+                        По всем вопросам обращаться в администрацию к К. Михельсону
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок с этапами -->
+        <section id="about" class="stages-section">
+            <div class="stages-section__container">
+
+                <!-- Заголовок -->
+                <div class="stages-header fade-in">
+                    <h2 class="stages-title">
+                        Этапы преображения<br>Васюков
+                        <span class="stages-subtitle">Будущие источники обогащения васюкинцев</span>
+                    </h2>
+                </div>
+                
+                <!-- Сетка карточек -->
+                <div class="stages-grid">
+
+                    <!-- Карточка 1 -->
+                    <div class="stage-card stage-card--1 fade-in">
+                        <div class="stage-card__number">1</div>
+                        <div class="stage-card__text">Строительство железнодорожной магистрали Москва-Васюки</div>
+                    </div>
+                    
+                    <!-- Карточка 2 -->
+                    <div class="stage-card stage-card--2 fade-in">
+                        <div class="stage-card__number">2</div>
+                        <div class="stage-card__text">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</div>
+                    </div>
+                    
+                    <!-- Карточка 3 -->
+                    <div class="stage-card stage-card--3 fade-in">
+                        <div class="stage-card__number">3</div>
+                        <div class="stage-card__text">Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</div>
+                    </div>
+                    
+                    <!-- Карточка 4 -->
+                    <div class="stage-card stage-card--4 fade-in">
+                        <div class="stage-card__number">4</div>
+                        <div class="stage-card__text">Строительство дворца для турнира</div>
+                    </div>
+                    
+                    <!-- Карточка 5 -->
+                    <div class="stage-card stage-card--5 fade-in">
+                        <div class="stage-card__number">5</div>
+                        <div class="stage-card__text">Размещение гаражей для гостевого автотранспорта</div>
+                    </div>
+                    
+                    <!-- Карточка 6 -->
+                    <div class="stage-card stage-card--6 fade-in">
+                        <div class="stage-card__number">6</div>
+                        <div class="stage-card__text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</div>
+                    </div>
+                    
+                    <!-- Карточка 7 -->
+                    <div class="stage-card stage-card--7 fade-in">
+                        <div class="stage-card__number">7</div>
+                        <div class="stage-card__text" style="max-width: 420px;">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</div>
+                    </div>
+                    
+                    <!-- Изображение самолета -->
+                    <div class="stage-airplane">
+                        <img src="images/airplane.png" alt="Самолет">
+                    </div>
+                </div>
+
+                <!-- Мобильная версия -->
+                <div class="stages-mobile">
+                    <div class="stages-carousel">
+                        
+                        <!-- Объединенная карточка 1-2 -->
+                        <div class="stage-slide stage-slide--first">
+                            <div class="stage-card stage-card--mobile fade-in">
+                                <div class="stage-card__content-group">
+                                    <div class="stage-card__number">1</div>
+                                    <div class="stage-card__text">Строительство железнодорожной магистрали Москва-Васюки</div>
+                                </div>
+                                <div class="stage-card__content-group">
+                                    <div class="stage-card__number">2</div>
+                                    <div class="stage-card__text">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Карточка 3 -->
+                        <div class="stage-slide">
+                            <div class="stage-card stage-card--mobile fade-in">
+                                <div class="stage-card__content-group">
+                                    <div class="stage-card__number">3</div>
+                                    <div class="stage-card__text">Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Объединенная карточка 4-5 -->
+                        <div class="stage-slide">
+                            <div class="stage-card stage-card--mobile fade-in">
+                                <div class="stage-card__content-group">
+                                    <div class="stage-card__number">4</div>
+                                    <div class="stage-card__text">Строительство дворца для турнира</div>
+                                </div>
+                                <div class="stage-card__content-group">
+                                    <div class="stage-card__number">5</div>
+                                    <div class="stage-card__text">Размещение гаражей для гостевого автотранспорта</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Карточка 6 -->
+                        <div class="stage-slide">
+                            <div class="stage-card stage-card--mobile fade-in">
+                                <div class="stage-card__content-group">
+                                    <div class="stage-card__number">6</div>
+                                    <div class="stage-card__text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Карточка 7 -->
+                        <div class="stage-slide">
+                            <div class="stage-card stage-card--mobile fade-in">
+                                <div class="stage-card__content-group">
+                                    <div class="stage-card__number">7</div>
+                                    <div class="stage-card__text">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Самолет для мобильной версии -->
+                    <div class="stage-airplane-mobile">
+                        <img src="images/airplane.png" alt="Самолет">
+                    </div>
+                    
+                    <!-- Управление каруселью -->
+                    <div class="carousel-controls fade-in">
+                        <button class="control-btn carousel-prev" type="button">
+                            <img src="images/left.png" alt="Предыдущий">
+                        </button>
+                        
+                        <div class="carousel-dots">
+                            <span class="dot active" data-slide="0"></span>
+                            <span class="dot" data-slide="1"></span>
+                            <span class="dot" data-slide="2"></span>
+                            <span class="dot" data-slide="3"></span>
+                            <span class="dot" data-slide="4"></span>
+                        </div>
+                        
+                        <button class="control-btn carousel-next" type="button">
+                            <img src="images/right.png" alt="Следующий">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Блок с участниками -->
+        <section class="participants-section">
+            <div class="participants-section__container">
+
+                <!-- Заголовок и контролы -->
+                <div class="participants-header fade-in">
+                    <h2 class="participants-title">Участники турнира</h2>
+                    <div class="participants-controls">
+                        <button class="control-btn control-btn--prev" disabled>
+                            <img src="images/left.png" alt="Предыдущий">
+                        </button>
+                        <span class="participants-counter">1 / 6</span>
+                        <button class="control-btn control-btn--next">
+                            <img src="images/right.png" alt="Следующий">
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Карусель участников -->
+                <div class="participants-carousel">
+                    <div class="carousel-track">
+
+                        <!-- Участники -->
+                        <!-- Карточка 1 -->
+                        <div class="participant-card fade-in">
+                            <img src="images/avatar.png" alt="Хозе-Рауль Капабланка" class="participant-card__image">
+                            <h3 class="participant-card__name">Хозе-Рауль Капабланка</h3>
+                            <p class="participant-card__title">Чемпион мира по шахматам</p>
+                            <button class="participant-card__btn">Подробнее</button>
+                        </div>
+                        
+                        <!-- Карточка 2 -->
+                        <div class="participant-card fade-in">
+                            <img src="images/avatar.png" alt="Эммануил Ласкер" class="participant-card__image">
+                            <h3 class="participant-card__name">Эммануил Ласкер</h3>
+                            <p class="participant-card__title">Чемпион мира по шахматам</p>
+                            <button class="participant-card__btn">Подробнее</button>
+                        </div>
+                        
+                        <!-- Карточка 3 -->
+                        <div class="participant-card fade-in">
+                            <img src="images/avatar.png" alt="Александр Алехин" class="participant-card__image">
+                            <h3 class="participant-card__name">Александр Алехин</h3>
+                            <p class="participant-card__title">Чемпион мира по шахматам</p>
+                            <button class="participant-card__btn">Подробнее</button>
+                        </div>
+                        
+                        <!-- Карточка 4 -->
+                        <div class="participant-card fade-in">
+                            <img src="images/avatar.png" alt="Арон Нимцович" class="participant-card__image">
+                            <h3 class="participant-card__name">Арон Нимцович</h3>
+                            <p class="participant-card__title">Чемпион мира по шахматам</p>
+                            <button class="participant-card__btn">Подробнее</button>
+                        </div>
+                        
+                        <!-- Карточка 5 -->
+                        <div class="participant-card fade-in">
+                            <img src="images/avatar.png" alt="Рихард Рети" class="participant-card__image">
+                            <h3 class="participant-card__name">Рихард Рети</h3>
+                            <p class="participant-card__title">Чемпион мира по шахматам</p>
+                            <button class="participant-card__btn">Подробнее</button>
+                        </div>
+                        
+                        <!-- Карточка 6 -->
+                        <div class="participant-card fade-in">
+                            <img src="images/avatar.png" alt="Остап Бендер" class="participant-card__image">
+                            <h3 class="participant-card__name">Остап Бендер</h3>
+                            <p class="participant-card__title">Гроссмейстер</p>
+                            <button class="participant-card__btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Мобильные контролы -->
+                <div class="participants-controls-mobile fade-in">
+                    <button class="control-btn control-btn--prev" disabled>
+                        <img src="images/left.png" alt="Предыдущий">
+                    </button>
+                    <span class="participants-counter-mobile">1 / 6</span>
+                    <button class="control-btn control-btn--next">
+                        <img src="images/right.png" alt="Следующий">
+                    </button>
+                </div>
+            </div>
+        </section>
+</main>
+
+    <!-- Бегущая строка -->
+    <div class="marquee">
+        <div class="marquee__content">
+            <span>ДЕЛО ПОМОЩИ УТОПАЮЩИМ — ДЕЛО РУК САМИХ УТОПАЮЩИХ!</span>
+            <span class="marquee__divider">•</span>
+            <span>ШАХМАТЫ ДВИГАЮТ ВПЕРЕД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!</span>
+            <span class="marquee__divider">•</span>
+            <span>ЛЕД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!</span>
+            <span class="marquee__divider">•</span>
+            <!-- Дублирование контента для бесшовной цикличности -->
+            <span>ДЕЛО ПОМОЩИ УТОПАЮЩИМ — ДЕЛО РУК САМИХ УТОПАЮЩИХ!</span>
+            <span class="marquee__divider">•</span>
+            <span>ШАХМАТЫ ДВИГАЮТ ВПЕРЕД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!</span>
+            <span class="marquee__divider">•</span>
+            <span>ЛЕД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!</span>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">
+                Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+            </p>
+        </div>
+    </footer>
+
+<script src="js/main.js"></script>
+<script>
+    // Плавный скролл для якорей
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+    
+function checkVisibility() {
+    const elements = document.querySelectorAll('.fade-in, .hero__buttons');
+    
+    elements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top;
+        const elementVisible = 150;
+        
+        if (elementTop < window.innerHeight - elementVisible) {
+            element.classList.add('visible');
+        }
+    });
+    
+    // Анимация заголовков на первом экране
+    const heroLines = document.querySelectorAll('.hero__line');
+    heroLines.forEach((line, index) => {
+        setTimeout(() => {
+            line.classList.add('animate');
+        }, index * 300);
+    });
+}
+    
+    // Проверяем видимость элементов при загрузке и скролле
+    window.addEventListener('load', checkVisibility);
+    window.addEventListener('scroll', checkVisibility);
+    
+    // Инициализация анимации при загрузке
+    document.addEventListener('DOMContentLoaded', function() {
+        checkVisibility();
+        
+        // Запускаем анимацию заголовков
+        const heroLines = document.querySelectorAll('.hero__line');
+        heroLines.forEach((line, index) => {
+            setTimeout(() => {
+                line.classList.add('animate');
+            }, index * 300);
+        });
+    });
+</script>
+
+</body>
+</html>
